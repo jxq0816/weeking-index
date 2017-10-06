@@ -1,0 +1,167 @@
+<mj-view>
+	<mj-layout data-width="100%" data-height="100%">
+		<mj-layout-north data-switch="true" data-height="54" data-border="false">
+			<mj-toolbar data-id="main-logo" data-height="100%" data-class="main-logo-default">
+				<mj-toolbar-item data-horizontal="left" data-vertical="middle">
+					<img src="img/Manjusakalogo.png"/>
+				</mj-toolbar-item>
+				<mj-toolbar-item data-horizontal="right" data-vertical="middle">
+					<mj-button data-id="main-skin" data-text="skin->deafult">
+						<mj-button-menu data-click="switchSkin">
+							<mj-button-menu-item data-text="default" data-skin="default"></mj-button-menu-item>
+							<mj-button-menu-item data-text="sea" data-skin="sea"></mj-button-menu-item>
+							<mj-button-menu-item data-text="red" data-skin="red"></mj-button-menu-item>
+							<mj-button-menu-item data-text="dark-blue" data-skin="dark-blue"></mj-button-menu-item>
+						</mj-button-menu>
+					</mj-button>
+				</mj-toolbar-item>
+			</mj-toolbar>
+		</mj-layout-north>
+		<mj-layout-center data-scroll="false" data-border="false">
+			<mj-tab data-id="main-tab" data-width="100%" data-height="100%">
+				<mj-tab-item data-title="首页" data-icon="fa fa-snowflake-o" data-closable="false" data-active="true" data-close-after="tabCloseAfterFunc" data-close-before="tabCloseBeforeFunc" data-activate-after="tabOpenAfterFunc" data-activate-before="tabOpenBeforeFunc">
+					<mj-vbox data-width="100%" data-split="10" data-model="auto"  data-border="false">
+						<mj-vbox-item data-height="360">
+							<mj-panel data-border="false" data-height="100%">
+								<mj-panel-body data-height="100%" data-border="false">
+									<mj-marquee>
+										<mj-marquee-item>
+											<img class="main-marquee-img" src="img/banner.jpg"></img>
+										</mj-marquee-item>
+										<mj-marquee-item>
+											<img class="main-marquee-img" src="img/banner_bank_red.jpg"></img>
+										</mj-marquee-item>
+										<mj-marquee-item>
+											<img class="main-marquee-img" src="img/banner_green.jpg"></img>
+										</mj-marquee-item>
+									</mj-marquee>
+								</mj-panel-body>
+								<mj-panel-foot>
+									<a class="fa fa-download" href="download/download.zip" style="width:200px;height:30px;line-height:30px;background-color:#4FC1E9;border-radius:2px;color:#ffffff;"> manjusaka下载</a>
+								</mj-panel-foot>
+							</mj-panel>
+						</mj-vbox-item>
+						<mj-vbox-item>
+							<mj-hbox data-width="100%" data-height="auto" data-split="10">
+								<mj-hbox-item>
+									<mj-view data-height="100%">
+										<table style="height:200px;">
+											<tbody>
+												<tr>
+													<td colspan="2">
+														<div class="main-title">专业的H5-Web控件库</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="main-center">丰富的组件库，支持标签和脚本两种开发模式。单页面开发框架：高效、高能、高质。扁平化风格，多套皮肤可供选择。基于H5、CSS3、Angularjs1.6、Jquery3.x构建。支持IE、Chrome、FireFox、Safari内核浏览器。
+														</div>
+													</td>
+													<td valign="bottom" style="padding:0px;">
+														<img class="main-title-img" src="img/ku.png" style="clear:box;"></img>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</mj-view>
+								</mj-hbox-item>
+								<mj-hbox-item>
+									<mj-view>
+										<table style="height:200px;">
+											<tbody>
+												<tr>
+													<td colspan="2">
+														<div class="main-title">快速开发</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="main-center">manjusaka是个完美支持HTML5网页的完整框架。提供易于使用的组件，它使 Web
+															开发人员能快速地在流行HTML5和CSS3
+															上建立程序页面。这些功能使您的应用适合今天的网络。它能缩短开发时间，减少代码量，使开发者更专注于业务和服务端，轻松实现界面开发，带来绝佳的用户体验。
+														</div>
+													</td>
+													<td valign="bottom" style="padding:0px;">
+														<img class="main-title-img" src="img/kf.png" style="clear:box;"></img>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</mj-view>
+								</mj-hbox-item>
+							</mj-hbox>
+						</mj-vbox-item>
+						<mj-vbox-item>
+							<mj-hbox data-width="100%" data-height="auto" data-split="10">
+								<mj-hbox-item>
+									<mj-view>
+										<table style="height:200px;">
+											<tbody>
+												<tr>
+													<td colspan="2">
+														<div class="main-title">面向企业</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="main-center">使用manjusaka你不需要写很多代码，你只需要通过编写一些简单HTML标记，就可以定义用户界面。致力降低企业应用的开发成本，丰富的UI控件、高度的稳定性、强大的扩展能力和平滑的版本升级能力，可满足大部分业务场景需求。
+														</div>
+													</td>
+													<td valign="bottom" style="padding:0px;">
+														<img class="main-title-img" src="img/mx.png" style="clear:box;"></img>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</mj-view>
+								</mj-hbox-item>
+								<mj-hbox-item>
+									<mj-view>
+										<table style="height:200px;">
+											<tbody>
+												<tr>
+													<td colspan="2">
+														<div class="main-title">全面支持</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="main-center">1对1的贴心服务、专业的售前工程师帮您轻松上手、5*8与7*24的电话支持服务、电子邮件服务、即时通讯服务产品培训、现场疑难解答、按人月的项目现场开发服务、新功能定制研发服务、源代码讲解研发服务等
+														</div>
+													</td>
+													<td valign="bottom" style="padding:0px;">
+														<img class="main-title-img" src="img/zc.png" style="clear:box;"></img>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</mj-view>
+								</mj-hbox-item>
+							</mj-hbox>
+						</mj-vbox-item>
+					</mj-vbox>
+				</mj-tab-item>
+			</mj-tab>
+		</mj-layout-center>
+		<mj-layout-west data-switch="true" data-scroll="false" data-width="200" data-border="false">
+			<mj-panel data-width="100%" data-height="100%">
+				<mj-panel-head data-shrink="false" data-icon="fa fa-fire">
+					控件导航
+				</mj-panel-head>
+				<mj-panel-body>
+					<mj-tree data-id="main-tree" data-sort-field="sort" data-click="treeClickFunc" data-load-after="treeAfterLoadFunc" data-border="true" data-autoload="true" data-action="js/mj/view/main/data.json" data-icon-open="" data-icon-close="" data-icon-leaf="" data-method="get">
+					</mj-tree>
+				</mj-panel-body>
+				<mj-panel-foot>
+					<mj-button data-text="展开" data-click="expand">
+					</mj-button>
+					<mj-button data-text="收起" data-click="collapse">
+					</mj-button>
+				</mj-panel-foot>
+			</mj-panel>
+		</mj-layout-west>
+		<mj-layout-south data-switch="true" data-scroll="false" data-height="30">
+			<div class="main-copyright">MANJUSAKA</div>
+		</mj-layout-south>
+	</mj-layout>
+</mj-view>

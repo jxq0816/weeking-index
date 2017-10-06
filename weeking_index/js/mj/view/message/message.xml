@@ -1,0 +1,16 @@
+<mj-view>
+	<mj-toolbar>
+		<mj-toolbar-item data-horizontal="center" data-vertical="middle">
+			<mj-button data-text="window" data-click="windowFunc">
+			</mj-button>
+			<mj-button data-text="alert" data-click="alertFunc">
+			</mj-button>
+			<mj-button data-text="confirm" data-click="confirmFunc">
+			</mj-button>
+			<mj-button data-text="loading" data-click="loadingFunc">
+			</mj-button>
+			<mj-button data-id="message-popup" data-text="popup">
+			</mj-button>
+		</mj-toolbar-item>
+	</mj-toolbar>
+</mj-view>

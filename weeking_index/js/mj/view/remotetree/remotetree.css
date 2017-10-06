@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+
+.c{
+	list-style-type: none;
+	cursor: pointer;
+}

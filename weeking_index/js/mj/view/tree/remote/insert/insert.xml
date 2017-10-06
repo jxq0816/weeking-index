@@ -1,0 +1,18 @@
+<mj-view>
+	<mj-panel data-height="100%">
+		<mj-panel-body>
+			<mj-form data-name="mainForm" data-layout="vertical" data-id="tree-remote-insert-form" data-column="1" data-label-width="150" data-label-align="right">
+			<mj-text data-label="父节点id" data-value="" data-name="parentId" data-readonly="true" data-hidden="true"></mj-text>
+				<mj-text data-label="父节点" data-value="" data-name="parentText" data-readonly="true"></mj-text>
+				<mj-text data-label="名称" data-value="" data-name="text"></mj-text>
+				<mj-select data-label="是否叶子节点" data-empty="true" data-name="isLeaf" data-required="true" data-method="get"></mj-select>
+			</mj-form>
+		</mj-panel-body>
+		<mj-panel-foot>
+			<mj-button data-text="提交" data-icon="fa fa-book" data-click="submitFunc">
+			</mj-button>
+			<mj-button data-text="取消" data-click="cancelFunc">
+			</mj-button>
+		</mj-panel-foot>
+	</mj-panel>
+</mj-view>

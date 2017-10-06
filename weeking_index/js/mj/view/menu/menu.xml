@@ -1,0 +1,4 @@
+<mj-view>
+	<mj-menu data-collapse="true" data-click="menuClickFunc" data-action="js/mj/view/menu/data.json" data-method="get" data-autoload="true">
+	</mj-menu>
+</mj-view>

@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+.vbox-item {
+	border:1px solid red;
+	height:100%;
+	width:100%;
+	background-color:transparent;
+	 margin:0px;
+	 background-origin:content-box;
+}

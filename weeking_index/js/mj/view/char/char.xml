@@ -1,0 +1,11 @@
+<mj-view data-id="char" data-scroll="iiii">
+	
+	<mj-panel
+		data-width="100%"
+		data-height="100%">		
+		<mj-panel-body>
+		
+			<mj-chart data-id="charMain" data-graph="pie"></mj-chart>
+		</mj-panel-body>		
+	</mj-panel>
+</mj-view>

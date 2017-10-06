@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+.list-table {
+	display: inline-table;
+	border-bottom: 1px solid #F7F5F5;
+	height: 40px;
+	width: 100%;
+}
+
+.list-table-row {
+	display: table-row;
+}
+
+.list-table-row:hover {
+	background-color: #F7F5F5;
+}
+
+.list-table-cell {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.list-title {
+	color: #747474;
+	font-size: 16px;
+	text-align: left;
+}
+
+.list-date {
+	color: #ADADAD;
+	font-size: 14px;
+	text-align: right;
+}

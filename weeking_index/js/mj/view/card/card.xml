@@ -1,0 +1,12 @@
+<mj-view data-id="card1234" data-scroll="iiii">
+	<div class = "row">		
+		<mj-card data-id="card1" data-row="col-md-3" data-title="card-title" data-content="card-content" data-src="img/default_portrait.png" >
+		</mj-card>		
+		<mj-card data-id="card2" data-row="col-md-4"  >
+		</mj-card>	
+		
+		<mj-card data-id="card3" data-row="col-md-5"  data-image-height="200">
+		</mj-card>		
+	</div>
+	
+</mj-view>

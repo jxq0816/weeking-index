@@ -1,0 +1,10 @@
+<mj-view data-id="rabc12345ee" data-class="">
+	<mj-tree data-id="rtree001" data-click="onTreeClick"
+		data-border="false" data-autoload="false" data-action=""
+		data-icon-open = "fa-bars"
+		data-icon-close = "fa-tasks"
+		data-icon-leaf = "fa-file"
+		data-method="get">
+
+	</mj-tree>
+</mj-view>

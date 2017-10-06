@@ -1,0 +1,314 @@
+{
+    "code": "0",
+    "message": "",
+    "data": [
+     {
+            "id": "tree-base",
+            "text": "基本控件",
+            "parentId": "-1",
+            "isExpand": "false",
+            "isLeaf": "false"
+        },
+        {
+            "id": "tree-bj",
+            "text": "布局",
+            "parentId": "tree-base",
+            "isExpand": "false",
+            "delay": "true",
+            "isLeaf": "false"
+        },
+        {
+            "id": "tree-bj-layout",
+            "text": "mj-layout",
+            "parentId": "tree-bj",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/layout/layout.xml",
+            "ctrl": "layoutCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-bj-vbox",
+            "text": "mj-vbox",
+            "parentId": "tree-bj",
+            "isExpand": "false",
+            "isLeaf": "false"
+        },
+        {
+            "id": "tree-bj-vbox-fit",
+            "text": "mj-vbox-fit",
+            "parentId": "tree-bj-vbox",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/vbox/vbox.xml",
+            "ctrl": "fitVboxCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-bj-vbox-auto",
+            "text": "mj-vbox-auto",
+            "parentId": "tree-bj-vbox",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/vbox/auto/vbox.xml",
+            "ctrl": "autoVboxCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-bj-vbox-average",
+            "text": "mj-vbox-average",
+            "parentId": "tree-bj-vbox",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/vbox/average/vbox.xml",
+            "ctrl": "averageVboxCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-bj-hbox",
+            "text": "mj-hbox",
+            "parentId": "tree-bj",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/hbox/hbox.xml",
+            "ctrl": "hboxCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-bj-grid",
+            "text": "mj-grid",
+            "parentId": "tree-bj",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/grid/grid.xml",
+            "ctrl": "gridCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-mb",
+            "text": "面板",
+            "parentId": "tree-base",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/panel/panel.xml",
+            "ctrl": "panelCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-bd",
+            "text": "表单",
+            "parentId": "tree-base",
+            "isExpand": "false",
+            "isLeaf": "false"
+        },
+        {
+            "id": "tree-bd-h",
+            "text": "横向表单",
+            "parentId": "tree-bd",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/form/horizontal/form.xml",
+            "ctrl": "horizontalFormCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-bd-v",
+            "text": "竖向表单",
+            "parentId": "tree-bd",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/form/vertical/form.xml",
+            "ctrl": "verticalFormCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-bg",
+            "text": "表格",
+            "parentId": "tree-base",
+            "isExpand": "false",
+            "isLeaf": "false"
+        },
+        {
+            "id": "tree-bg-local",
+            "text": "本地表格",
+            "parentId": "tree-bg",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/table/table.xml",
+            "ctrl": "tableCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-bg-remote",
+            "text": "远程表格",
+            "parentId": "tree-bg",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/table/remote/table.xml",
+            "ctrl": "tableRemoteCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-lb",
+            "text": "列表",
+            "parentId": "tree-base",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/list/list.xml",
+            "ctrl": "listCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-xx",
+            "text": "消息",
+            "parentId": "tree-base",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/message/message.xml",
+            "ctrl": "messageCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-dh",
+            "text": "导航",
+            "parentId": "tree-base",
+            "isExpand": "false",
+            "isLeaf": "false"
+        },
+        {
+            "id": "tree-bg-tab",
+            "text": "mj-tab",
+            "parentId": "tree-dh",
+            "isExpand": "false",
+            "isLeaf": "false"
+        },
+        {
+            "id": "tree-bg-tab-default",
+            "text": "mj-tab-default",
+            "parentId": "tree-bg-tab",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/tab/tab.xml",
+            "ctrl": "tabCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-bg-tab-card",
+            "text": "mj-tab-card",
+            "parentId": "tree-bg-tab",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/tab/card/tab.xml",
+            "ctrl": "tabCardCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-bg-tab-button",
+            "text": "mj-tab-button",
+            "parentId": "tree-bg-tab",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/tab/button/tab.xml",
+            "ctrl": "tabButtonCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-bg-tree",
+            "text": "mj-tree",
+            "parentId": "tree-dh",
+            "isExpand": "false",
+            "isLeaf": "false"
+        },
+        {
+            "id": "tree-bg-tree-tree",
+            "text": "mj-tree",
+            "parentId": "tree-bg-tree",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/tree/tree.xml",
+            "ctrl": "treeCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-bg-tree-tree-remote",
+            "text": "mj-tree-remote",
+            "parentId": "tree-bg-tree",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/tree/remote/tree.xml",
+            "ctrl": "remoteTreeCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-bg-tree-tree-check",
+            "text": "mj-checkTree",
+            "parentId": "tree-bg-tree",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/tree/check/tree.xml",
+            "ctrl": "treeCheckCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-bg-menu",
+            "text": "mj-menu",
+            "parentId": "tree-dh",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/menu/menu.xml",
+            "ctrl": "menuCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-bg-toolbar",
+            "text": "mj-toolbar",
+            "parentId": "tree-dh",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/toolbar/toolbar.xml",
+            "ctrl": "toolbarCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-an",
+            "text": "按钮",
+            "parentId": "tree-base",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "view": "js/mj/view/button/button.xml",
+            "ctrl": "buttonCtrl",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-yl",
+            "text": "综合示例",
+            "parentId": "-1",
+            "isExpand": "false",
+            "isLeaf": "false"
+        },
+        {
+            "id": "tree-yl-ygwh",
+            "text": "员工维护",
+            "parentId": "tree-yl",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "ctrl": "userCtrl",
+            "ctrlAlias": "userCtrl1",
+            "param": "userCtrl1",
+            "view": "js/mj/view/example/user/user.xml",
+            "icon": "fa fa-th-large"
+        },
+        {
+            "id": "tree-yl-ygwh2",
+            "text": "员工维护2",
+            "parentId": "tree-yl",
+            "isExpand": "false",
+            "isLeaf": "true",
+            "ctrl": "userCtrl",
+            "ctrlAlias": "userCtrl2",
+            "param": "userCtrl2",
+            "view": "js/mj/view/example/user/user.xml",
+            "icon": "fa fa-th-large"
+        }
+    ]
+}

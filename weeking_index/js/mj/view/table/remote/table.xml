@@ -1,0 +1,15 @@
+<mj-view>
+	<mj-table data-loading-enable="true" data-border="false" data-total-enable="false" data-home-showable="true" data-home-text="首页" data-prev-text="上一页" data-next-text="下一页" data-last-text="尾页"  data-id="tableRemote-table" data-width="100%" data-height="100%" data-page="true" data-pagesize="10" data-action="@pageAction" data-method="get" data-field="data" data-rowclick="rowclick" data-rowdblclick="rowdblclick">
+		<mj-table-toolbar>
+			<mj-button data-text="清除" data-click="clearFunc"></mj-button>
+			<mj-button data-text="加载" data-click="refreshFunc"></mj-button>
+		</mj-table-toolbar>
+		<mj-table-columns data-model="single" data-index="false">
+			<!-- <mj-table-column data-title="id" data-field="id" data-align="center" data-width="" data-sort="true"></mj-table-column>
+			<mj-table-column data-title="name" data-field="name" data-align="center" data-width="" data-sort="true"></mj-table-column>
+			<mj-table-column data-title="desc" data-field="desc" data-align="center" data-width="" data-sort=""></mj-table-column>
+			<mj-table-column data-title="remark" data-field="remark" data-align="center" data-wrap="true" data-sort=""></mj-table-column>
+			<mj-table-column data-title="操作" data-field="id" data-align="center" data-width="120" data-render="opreatorRender"></mj-table-column> -->
+		</mj-table-columns>
+	</mj-table>
+</mj-view>

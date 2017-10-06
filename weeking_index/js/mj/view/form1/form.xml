@@ -1,0 +1,75 @@
+<mj-view>
+	<mj-panel data-height="100%">
+		<mj-panel-head>
+			查询条件
+		</mj-panel-head>
+		<mj-panel-body>
+			<mj-form data-name="mainForm" data-id="mj-form-0011" data-column="2" data-label-width="100%" data-label-align="left">
+				<mj-text data-colspan="1" data-id="mj-text-0021" data-click="onChange" data-label="mj-text" data-name="userName11" data-required="true" data-min="20" data-max="30" data-placeholder="请输入...">
+					<mj-field-left data-width="80">
+						姓名：
+					</mj-field-left>
+					<mj-field-right data-width="30">
+						@
+					</mj-field-right>
+				</mj-text>
+				<mj-text data-colspan="1" data-id="mj-text-0021ww" data-click="onChange" data-label="mj-text" data-name="userName11" data-required="true" data-min="20" data-max="30" data-placeholder="1212wqw">
+					<mj-field-left data-width="30">
+						@
+					</mj-field-left>
+					<mj-field-right data-width="30">
+						@
+					</mj-field-right>
+				</mj-text>
+				<mj-text data-colspan="1" data-id="mj-text-002s1ww" data-click="onChange" data-label="mj-text" data-name="userName11" data-required="true" data-min="20" data-max="30" data-placeholder="1212wqw" data-readonly="true">
+				</mj-text>
+				<mj-slider data-value="30" data-colspan="2" data-id="slider-0021" data-label="mj-slider" data-name="slider" data-required="true" data-min="20" data-max="30">
+					<mj-field-right data-width="60">
+						@
+					</mj-field-right>
+				</mj-slider>
+				<mj-number data-colspan="2" data-click="onChange" data-label="mj-number" data-name="number" data-model="userName1" data-required="true" data-min="3.8" data-max="6.2" data-step="0.2" data-digit="1" data-placeholder="1212"></mj-number>
+				<mj-file data-colspan="2" data-id="mj-file-0011" data-label="mj-file" data-name="userName1" data-required="true" data-min="0" data-max="100000" data-type="png/CSV" data-success="success" data-error="error" data-abort="abort" data-placeholder="1212wqw"></mj-file>
+				<mj-textarea data-label="mj-textarea" data-colspan="2" data-name="mj-textarea" data-required="true" data-min="4" data-max="60" data-placeholder="1212wqw"></mj-textarea>
+				<mj-url data-label="mj-url" data-click="onChange" data-name="url" data-required="true" data-placeholder="1212wqw"></mj-url>
+				<mj-email data-label="mj-email" data-click="onChange" data-name="mj-email" data-required="true" data-placeholder="1212wqw"></mj-email>
+				<mj-telephone data-label="mj-telephone" data-name="mj-telephone" data-required="true" data-placeholder="1212wqw"></mj-telephone>
+				<mj-text data-label="mj-text" data-value="测试默认值" data-name="userName2" data-model="userName1" data-placeholder="1212wqw"></mj-text>
+				<mj-password data-label="mj-password" data-name="userName12" data-required="true" data-min="20" data-max="30" data-placeholder="1212wqw"></mj-password>
+				<mj-select data-id="mj-select" data-label="mj-select" data-empty="true" data-name="userName121211111" data-required="true" data-method="get"></mj-select>
+				<mj-radio data-id="mj-radio" data-action="http://localhost/manjusaka/services/mradio/selection/list" data-change="aaa" data-value="1" data-disabled="false" data-label="性别" data-name="sex" data-method="get"></mj-radio>
+				<mj-checkbox data-change="test1" data-method="get" data-colspan="2" data-id="mj-checkbox-00991" data-value="1,2" data-disabled="false" data-label="水果" data-name="table"></mj-checkbox>
+				<mj-date data-id="date-111" data-colspan="2" data-change="aaa" data-required="true" data-format="yyyy-MM-dd" data-value="1489388319338" data-readonly="false" data-disabled="false" data-label="日期" data-name="date" data-placeholder="请选择日期"></mj-date>
+				<mj-text data-name="userName2345" data-placeholder="1212wqw" data-required="true"></mj-text>
+			</mj-form>
+		</mj-panel-body>
+		<mj-panel-foot>
+			<mj-button data-text="查询" data-icon="fa fa-book" data-click="clickFun">
+			</mj-button>
+			<mj-button data-text="重置" data-hide="true" data-click="test1">
+			</mj-button>
+			<mj-button data-text="全选" data-click="test2">
+			</mj-button>
+			<mj-button data-text="取消" data-click="close">
+			</mj-button>
+			<mj-button data-text="设置只读" data-click="setReadOnly()">
+			</mj-button>
+			<mj-button data-text="设置清空" data-click="clearItem">
+			</mj-button>
+			<mj-button data-text="提交表单" data-id="mj-button-1234" data-click="submit">
+			</mj-button>
+			<mj-button-menu data-hide="false" data-icon="fa fa-user-o" data-click="test3" data-text="菜单按钮" data-id="mj-button-menu-1">
+				<mj-button-menu-item data-text="菜单一" data-icon="fa fa-user-o" data-hide="false"></mj-button-menu-item>
+				<mj-button-menu-item data-text="菜单二取消菜单一隐藏"></mj-button-menu-item>
+				<mj-button-menu-item data-text="菜单三" data-disabled='true' data-click="aaaa"></mj-button-menu-item>
+				<mj-button-menu-spe></mj-button-menu-spe>
+				<mj-button-menu-item data-text="菜单四显示菜单九" data-click="setHide"></mj-button-menu-item>
+				<mj-button-menu-item data-text="菜单五" data-click="aaaa"></mj-button-menu-item>
+				<mj-button-menu-item data-text="菜单六" data-click="aaaa"></mj-button-menu-item>
+				<mj-button-menu-item data-text="菜单七" data-click="aaaa"></mj-button-menu-item>
+				<mj-button-menu-item data-id="mj-button-menu-item-22222" data-text="菜单八" data-click="aaaa"></mj-button-menu-item>
+				<mj-button-menu-item data-id="mj-button-menu-item-11111" data-text="菜单九" data-hide="true" data-click="aaaa"></mj-button-menu-item>
+			</mj-button-menu>
+		</mj-panel-foot>
+	</mj-panel>
+</mj-view>

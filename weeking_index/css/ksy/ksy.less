@@ -1,0 +1,686 @@
+@color-background: #FFFFFF;
+@color-default: #e2e2e2;
+@color-normal: #AAB2BD;
+@color-primary: #3BAFDA;
+@color-success: #8CC152;
+@color-info: #37BC9B;
+@color-warn: #FFCE54;
+@color-danger: #ED5565;
+@color-border: #e5e6e7;
+@color-panel-head: #eeeeee;
+@color-panel-foot: #FFFFFF;
+@height-toolbar: 40px;
+@head-padding-left: 15px;
+@head-padding-right: 15px;
+html , body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+* {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #666666;
+}
+
+.ksy-color-default {
+	color: @color-danger;
+}
+
+.ksy-theme-danger {
+	color: @color-danger;
+}
+
+.ksy-border-none {
+	border-style: none;
+	border-width: 0px;
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border: 0px solid @color-border;
+}
+
+.ksy-viewport {
+	width: 100%;
+	height: 100%;
+	background-color: @color-background;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.ksy-include {
+	width: 100%;
+	height: 100%;
+	background-color: @color-background;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+	&-body {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		text-align: center;
+		vertical-align: middle;
+	}
+}
+
+.ksy-view {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	background-color: @color-background;
+}
+
+.ksy-vbox {
+	display: table;
+	table-layout: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: @color-background;
+	&-row {
+		display: table-row;
+	}
+
+	&-cell {
+		display: table-cell;
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+		text-align: center;
+		vertical-align: top;
+	}
+
+	&-body {
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+	}
+}
+
+.ksy-hbox {
+	display: table;
+	table-layout: fixed;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	background-color: @color-background;
+	&-row {
+		display: table-row;
+	}
+
+	&-cell {
+		display: table-cell;
+		border: 1px solid @color-border;
+		vertical-align: top;
+	}
+
+	&-body {
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+	}
+}
+
+.ksy-panel {
+	display: table;
+	table-layout: fixed;
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+	border: 1px solid @color-border;
+	background-color: @color-background;
+	&-row {
+		display: table-row;
+	}
+
+	&-head {
+		display: table-cell;
+		height: @height-toolbar;
+		text-align: left;
+		vertical-align: middle;
+		border-bottom: 1px solid @color-border;
+		background-color: @color-panel-head;
+		padding-left: @head-padding-left;
+	}
+
+	&-body {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	&-body-content {
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	&-foot {
+		display: table-cell;
+		height: @height-toolbar;
+		border-top: 1px solid @color-border;
+		text-align: center;
+		vertical-align: middle;
+	}
+}
+
+.ksy-form {
+	height: auto;
+	width: 100%;
+	border: 1px solid @color-border;
+	background-color: @color-background;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.ksy-tab {
+	display: table;
+	table-layout: fixed;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	border: 1px solid @color-border;
+	border-radius: 3px;
+	background-color: @color-background;
+	&-row {
+		display: table-row;
+	}
+
+	&-head {
+		display: table-cell;
+		height: @height-toolbar;
+		text-align: left;
+		vertical-align: bottom;
+		border-bottom: 1px solid @color-border;
+	}
+
+	&-body {
+		display: table-cell;
+		vertical-align: bottom;
+		height: 100%;
+	}
+
+	&-item {
+		height: 100px;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	&-title {
+		margin-left: 5px;
+		margin-right: 10px;
+	}
+
+	&-title-show {
+		padding-left: 5px;
+		padding-right: 5px;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-bottom: 0px;
+		height: 30px;
+		border: 1px solid @color-border;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		background-color: @color-border;
+		border-bottom: none;
+		min-width: 80px;
+		text-align: center;
+	}
+
+	&-title-hide {
+		padding-left: 5px;
+		padding-right: 5px;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-bottom: 0px;
+		height: 30px;
+		border: 1px solid @color-border;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		background-color: @color-border;
+		border-bottom: none;
+		min-width: 80px;
+		text-align: center;
+	}
+
+	&-title-close {
+		top: -6px;
+		right: -9px;
+		position: relative;
+		z-index: 100;
+		color: red;
+		font-size: 12px;
+	}
+}
+
+.ksy-tree {
+	width: 100%;
+	text-align: left;
+	border: 1px solid @color-border;
+	background-color: @color-background;
+	&-item {
+		width: 100%;
+	}
+
+	&-content {
+		height: 24px;
+		text-align: left;
+		width: 100%;
+		&:hover {
+			background-color: @color-primary;
+		}
+
+		&:active {
+			background-color: @color-success;
+		}
+	}
+
+	&-text {
+		margin-left: 5px;
+		font-size: 16px;
+		cursor: pointer;
+	}
+
+	&-icon {
+		cursor: pointer;
+	}
+
+	&-child {
+	}
+}
+
+.ksy-table {
+	display: table;
+	table-layout: fixed;
+	border: 1px solid @color-border;
+	height: 100%;
+	width: 100%;
+	&-row {
+		display: table-row;
+	}
+
+	&-cell {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	&-toolbar {
+		height: @height-toolbar;
+		width: 100%;
+		display: table-cell;
+		vertical-align: middle;
+		overflow: hidden;
+		background-color: @color-panel-foot;
+		text-align: left;
+		padding-left: @head-padding-left;
+	}
+
+	&-columns {
+		display: none;
+	}
+
+	&-head {
+		display: table-cell;
+		vertical-align: middle;
+		height: @height-toolbar;
+		width: 100%;
+		overflow: hidden;
+		color: #47b4dc;
+	}
+
+	&-head-content {
+		width: 100%;
+		height: 42px;
+		overflow-y: hidden;
+		overflow-x: hidden;
+	}
+
+	&-body {
+		display: table-cell;
+		width: 100%;
+		height: 100%;
+		vertical-align: top;
+	}
+
+	&-body-content {
+		width: 100%;
+		height: 100%;
+		background-color: #ededed;
+		overflow: auto;
+	}
+
+	&-foot {
+		height: @height-toolbar;
+		width: 100%;
+		display: table-cell;
+		vertical-align: middle;
+		overflow: hidden;
+		background-color: @color-panel-foot;
+		text-align: left;
+		padding-left: 5px;
+		line-height: @height-toolbar;
+	}
+
+	&-button {
+		color: #989898;
+	}
+
+	&-input {
+		margin-right: 5px;
+		width: 100px;
+		display: inline;
+		text-align: center;
+		font-size: 14px;
+	}
+
+	&-total {
+		clear: both;
+		color: red;
+		font-size: 12px;
+		display: inline-block;
+		float: right;
+		margin-right: 10px;
+	}
+
+	&-table {
+		table-layout: fixed;
+		border-collapse: separate;
+		border-spacing: 1px;
+		background-color: #ededed;
+	}
+
+	&-table-td {
+		background-color: @color-background;
+		white-space: nowrap;
+		padding-left: 5px;
+		padding-right: 5px;
+		text-align: left;
+		height: 30px;
+		vertical-align: middle;
+	}
+
+	&-table-index {
+		background-color: #636363;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		padding-left: 5px;
+		padding-right: 5px;
+		text-align: center;
+		height: 30px;
+		width: 30px;
+		color: @color-background;
+	}
+
+	&-table-work {
+		background-color: @color-background;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		padding-left: 5px;
+		padding-right: 5px;
+		text-align: center;
+		height: 30px;
+		width: 30px;
+	}
+
+	&-column {
+		height: 30px;
+		text-align: left;
+		vertical-align: middle;
+	}
+}
+
+.ksy-layout {
+	display: table;
+	table-layout: fixed;
+	height: 100%;
+	width: 100%;
+	&-row {
+		display: table-row;
+	}
+
+	&-split-v {
+		display: table-cell;
+		overflow: hidden;
+		width: 12px;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 12px;
+		line-height: 12px;
+	}
+
+	&-split-h {
+		display: table-cell;
+		overflow: hidden;
+		height: 12px;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 12px;
+		line-height: 12px;
+	}
+
+	&-north {
+		display: table-cell;
+		text-align: left;
+		vertical-align: middle;
+		border: 1px solid @color-border;
+		width: 100%;
+		height: 30px;
+	}
+
+	&-south {
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;
+		border: 1px solid @color-border;
+		width: 100%;
+		height: 30px;
+	}
+
+	&-east {
+		display: table-cell;
+		text-align: left;
+		vertical-align: top;
+		border: 1px solid @color-border;
+		width: 30px;
+		min-width: 30px;
+		max-width: 30%;
+		height: 100%;
+	}
+
+	&-west {
+		display: table-cell;
+		text-align: left;
+		vertical-align: top;
+		border: 1px solid @color-border;
+		width: 30px;
+		min-width: 30px;
+		max-width: 30%;
+		height: 100%;
+	}
+
+	&-center {
+		display: table-cell;
+		overflow: hidden;
+		text-align: left;
+		vertical-align: middle;
+		border: 1px solid @color-border;
+		height: 100%;
+	}
+
+	&-content {
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		display: none;
+	}
+
+	&-body {
+		display: table-cell;
+		overflow: hidden;
+		height: 100%;
+		width: 100%;
+	}
+
+	&-switch {
+		cursor: pointer;
+	}
+}
+
+.ksy-icon {
+	margin-right:5px;
+}
+
+.ksy-input {
+	width: 100%;
+	&-label {
+		width: 100%;
+		align: right;
+	}
+
+	&-field {
+	}
+}
+
+.ksy-mash {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	background-color: #000000;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 9999;
+	opacity: 0.2;
+}
+
+.ksy-window {
+	display: table;
+	table-layout: fixed;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	border: 1px solid @color-border;
+	border-radius: 5px;
+	background-color: @color-background;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 10000;
+	&-row {
+		display: table-row;
+	}
+
+	&-head {
+		display: table-cell;
+		height: @height-toolbar;
+		text-align: left;
+		vertical-align: middle;
+		border-bottom: 1px solid @color-border;
+		background-color: @color-panel-head;
+		padding-left: @head-padding-left;
+		padding-right: @head-padding-right;
+	}
+
+	&-body {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	&-content {
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	&-foot {
+		display: table-cell;
+		height: @height-toolbar;
+		border-top: 1px solid @color-border;
+		text-align: center;
+		vertical-align: middle;
+	}
+
+	&-close {
+		float: right;
+		cursor: pointer;
+		&:hover {
+			color: red;
+		}
+
+		&:active {
+			color: @color-success;
+		}
+	}
+}
+
+
+.ksy-alert {
+	display: table;
+	table-layout: fixed;
+	height: 100px;
+	width: 200px;
+	overflow: hidden;
+	border: 1px solid @color-border;
+	border-radius: 5px;
+	background-color: @color-background;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 100000;
+	&-row {
+		display: table-row;
+	}
+
+	&-head {
+		display: table-cell;
+		height: @height-toolbar;
+		text-align: left;
+		vertical-align: middle;
+		border-bottom: 1px solid @color-border;
+		background-color: @color-panel-head;
+		padding-left: @head-padding-left;
+		padding-right: @head-padding-right;
+	}
+
+	&-body {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	&-content {
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	&-foot {
+		display: table-cell;
+		height: @height-toolbar;
+		border-top: 1px solid @color-border;
+		text-align: center;
+		vertical-align: middle;
+	}
+
+	&-close {
+		float: right;
+		cursor: pointer;
+		&:hover {
+			color: red;
+		}
+
+		&:active {
+			color: @color-success;
+		}
+	}
+}
+
+.ksy-input {
+	&-label {
+		text-align: right;
+	}
+}
+

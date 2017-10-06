@@ -1,0 +1,16 @@
+<mj-view>
+	<mj-toolbar>
+		<mj-toolbar-item data-horizontal="left" data-vertical="middle">
+			<mj-button data-text="left">
+			</mj-button>
+		</mj-toolbar-item>
+		<mj-toolbar-item data-horizontal="center" data-vertical="middle">
+			<mj-button data-text="center">
+			</mj-button>
+		</mj-toolbar-item>
+		<mj-toolbar-item data-horizontal="right" data-vertical="middle">
+			<mj-button data-text="right">
+			</mj-button>
+		</mj-toolbar-item>
+	</mj-toolbar>
+</mj-view>
