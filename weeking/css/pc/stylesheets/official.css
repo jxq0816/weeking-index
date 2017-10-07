@@ -23,18 +23,18 @@ h2 + p {
 
 /* line 21, ../sass/official.scss */
 .cb {
-    width: 790px;
+    width: 70%;
     margin: 0 auto;
     text-align: left;
     position: relative;
-    margin-top: 50px;
+    margin-top: 5%;
 }
 
 /* line 30, ../sass/official.scss */
 .rb {
     position: absolute;
-    top: 10px;
-    left: 430px;
+    top: 5%;
+    left: 60%;
 }
 
 /* line 36, ../sass/official.scss */
