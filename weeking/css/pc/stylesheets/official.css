@@ -4,6 +4,7 @@
     font-size: 18px;
     font-weight: 200;
     letter-spacing: 0.05em;
+    width:100%;
 }
 
 /* line 8, ../sass/official.scss */
@@ -32,7 +33,7 @@ h2 + p {
 /* line 30, ../sass/official.scss */
 .rb {
     position: absolute;
-    top: 106px;
+    top: 10px;
     left: 430px;
 }
 
