@@ -167,13 +167,11 @@ body {
 }
 /* line 148, ../sass/index.scss */
 .page1 .lb {
-    background: url(../../../images/pc/v2/banner1text.png) no-repeat top right;
     width: 840px;
     height: 380px;
     padding-top: 140px;
     position: absolute;
-    left: 50%;
-    margin-left: -420px;
+    left: 15%;
     top: 100px;
     opacity: 0;
     text-align: left;
