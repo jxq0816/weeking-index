@@ -167,12 +167,12 @@ body {
 }
 /* line 148, ../sass/index.scss */
 .page1 .lb {
-    width: 840px;
+    width: 50%;
     height: 380px;
-    padding-top: 140px;
+    padding-top: 10%;
     position: absolute;
     left: 15%;
-    top: 100px;
+    top: 10%;
     opacity: 0;
     text-align: left;
     -moz-transition: all 0.3s ease-in 0s;
