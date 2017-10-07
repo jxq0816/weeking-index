@@ -1,0 +1,667 @@
+@charset "UTF-8";
+/* ====================================================
+ * 初始化css
+ * start
+ * =============
+*/
+/* line 7, ../sass/base.scss */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/* line 11, ../sass/base.scss */
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+}
+
+/* line 54, ../sass/base.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+/* line 67, ../sass/base.scss */
+audio,
+canvas,
+video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+/* line 74, ../sass/base.scss */
+body,
+button,
+input,
+select,
+textarea {
+    font: 12px/1.5 "microsoft yahei", Arial, Helvetica, sans-serif;
+}
+
+/* line 81, ../sass/base.scss */
+input,
+select,
+textarea {
+    font-size: 100%;
+}
+
+/* line 86, ../sass/base.scss */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* line 90, ../sass/base.scss */
+th {
+    text-align: inherit;
+}
+
+/* line 93, ../sass/base.scss */
+fieldset,
+img,
+a img {
+    border: 0 none;
+}
+
+/* line 98, ../sass/base.scss */
+iframe {
+    display: block;
+}
+
+/* line 101, ../sass/base.scss */
+abbr,
+acronym {
+    border: 0;
+    font-variant: normal;
+}
+
+/* line 106, ../sass/base.scss */
+del {
+    text-decoration: line-through;
+}
+
+/* line 109, ../sass/base.scss */
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* line 120, ../sass/base.scss */
+ol,
+ul {
+    list-style: none;
+}
+
+/* line 124, ../sass/base.scss */
+caption,
+th {
+    text-align: left;
+}
+
+/* line 128, ../sass/base.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: 400;
+}
+
+/* line 137, ../sass/base.scss */
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+/* line 144, ../sass/base.scss */
+sup {
+    top: -0.5em;
+}
+
+/* line 147, ../sass/base.scss */
+sub {
+    bottom: -0.25em;
+}
+
+/* line 150, ../sass/base.scss */
+ins,
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+/* line 155, ../sass/base.scss */
+a {
+    cursor: pointer;
+}
+
+/* line 158, ../sass/base.scss */
+a:hover {
+    text-decoration: none;
+}
+
+/* line 161, ../sass/base.scss */
+:focus {
+    outline: 0;
+}
+
+/* line 164, ../sass/base.scss */
+.fl {
+    float: left;
+}
+
+/* line 167, ../sass/base.scss */
+.fr {
+    float: right;
+}
+
+/* line 170, ../sass/base.scss */
+.hide {
+    display: none !important;
+}
+
+/* line 173, ../sass/base.scss */
+.clearfix {
+    *zoom: 1;
+}
+
+/* line 176, ../sass/base.scss */
+.clear {
+    clear: both;
+}
+
+/* line 179, ../sass/base.scss */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: block;
+}
+
+/* line 184, ../sass/base.scss */
+.clearfix:after {
+    clear: both;
+}
+
+/* line 187, ../sass/base.scss */
+.hr-10 {
+    height: 10px;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+/* line 193, ../sass/base.scss */
+.mr0 {
+    margin-right: 0 !important;
+}
+
+/* line 196, ../sass/base.scss */
+.mr100 {
+    margin-right: 100px;
+}
+
+/* line 199, ../sass/base.scss */
+.mr200 {
+    margin-right: 200px;
+}
+
+/* line 202, ../sass/base.scss */
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* line 207, ../sass/base.scss */
+.w1180 {
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* =============
+ * 初始化css
+ * end
+ * ====================================================
+*/
+/* ====================================================
+ * 分页css
+ * start
+ * =============
+*/
+/* line 226, ../sass/base.scss */
+.js-page {
+    height: 20px;
+}
+/* line 228, ../sass/base.scss */
+.js-page li {
+    float: left;
+    color: #999;
+}
+/* line 231, ../sass/base.scss */
+.js-page li .k {
+    cursor: pointer;
+    border: 1px solid #e1e1e1;
+    margin-right: 5px;
+    width: 18px;
+    text-align: center;
+    line-height: 18px;
+    height: 18px;
+}
+/* line 239, ../sass/base.scss */
+.js-page li .k:hover {
+    border: 1px solid #ddd;
+    background: #f8f8f8;
+    color: #787878;
+}
+/* line 245, ../sass/base.scss */
+.js-page li.unclick {
+    cursor: text;
+    border: 1px solid #eee;
+    color: #ccc;
+}
+/* line 249, ../sass/base.scss */
+.js-page li.unclick:hover {
+    cursor: text;
+    border: 1px solid #eee;
+    background: none;
+    color: #ccc;
+}
+/* line 256, ../sass/base.scss */
+.js-page li.page {
+    cursor: pointer;
+    border: 1px solid #e1e1e1;
+    margin-right: 5px;
+    padding: 0 6px;
+    line-height: 18px;
+}
+/* line 262, ../sass/base.scss */
+.js-page li.page:hover {
+    border: 1px solid #ddd;
+    background: #f8f8f8;
+    color: #787878;
+}
+/* line 267, ../sass/base.scss */
+.js-page li.page.current {
+    border: 1px solid #ddd;
+    background: #ddd;
+    color: #fff;
+}
+/* line 273, ../sass/base.scss */
+.js-page li.jump {
+    float: left;
+    margin-right: 5px;
+}
+/* line 276, ../sass/base.scss */
+.js-page li.jump span {
+    float: left;
+    margin-right: 5px;
+}
+/* line 280, ../sass/base.scss */
+.js-page li.jump .pagenum {
+    float: left;
+    width: 30px;
+    height: 18px;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    color: #999;
+}
+/* line 290, ../sass/base.scss */
+.js-page li.select select {
+    float: left;
+    color: #999;
+    height: 20px;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+}
+
+/* =============
+ * 分页css
+ * end
+ * ====================================================
+*/
+/* ====================================================
+ * 弹出框插件css
+ * start
+ * =============
+*/
+/* line 314, ../sass/base.scss */
+.js-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    background: #f2f2f2;
+    border: 1px solid #eee;
+}
+/* line 321, ../sass/base.scss */
+.js-box .js-box-t {
+    overflow: hidden;
+    position: relative;
+    padding: 20px 24px 10px 24px;
+}
+/* line 325, ../sass/base.scss */
+.js-box .js-box-t h4 {
+    text-align: center;
+}
+/* line 328, ../sass/base.scss */
+.js-box .js-box-t .js-box-t-close {
+    display: block;
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    line-height: 0;
+    font-size: 0;
+    right: 10px;
+    top: 10px;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: url(../images/icon/icon.png) no-repeat 0 0;
+}
+/* line 342, ../sass/base.scss */
+.js-box .js-box-c {
+    overflow: hidden;
+    margin: 10px;
+}
+/* line 346, ../sass/base.scss */
+.js-box .js-box-b {
+    overflow: hidden;
+    padding: 16px 10px;
+    text-align: center;
+}
+/* line 350, ../sass/base.scss */
+.js-box .js-box-b .js-box-b-ok {
+    display: inline-block;
+    padding: 8px 34px;
+    border-width: 1px;
+    border-style: solid;
+    background: #e01d20;
+    border-color: #e01d20;
+    margin-right: 10px;
+    color: #fff;
+}
+/* line 359, ../sass/base.scss */
+.js-box .js-box-b .js-box-b-ok:hover {
+    background: #e64a4d;
+}
+/* line 363, ../sass/base.scss */
+.js-box .js-box-b .js-box-b-cancel {
+    display: inline-block;
+    padding: 8px 34px;
+    border-width: 1px;
+    border-style: solid;
+    background: #e1e1e1;
+    border-color: #d1d1d1;
+}
+/* line 370, ../sass/base.scss */
+.js-box .js-box-b .js-box-b-cancel:hover {
+    background: #fff;
+    border-color: #e1e1e1;
+}
+
+/* =============
+ * 弹出框插件css
+ * end
+ * ====================================================
+*/
+/* ====================================================
+ * 遮罩层css
+ * start
+ * =============
+*/
+/* line 387, ../sass/base.scss */
+.js-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.1;
+    filter: alpha(opacity=10);
+}
+
+/* =============
+ * 遮罩层css
+ * end
+ * ====================================================
+*/
+/* ====================================================
+ * loading css
+ * start
+ * =============
+*/
+/* line 406, ../sass/base.scss */
+.js-loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -16px;
+    margin-top: -16px;
+    width: 32px;
+    height: 32px;
+    background: url(../images/icon/loading.gif) no-repeat center;
+}
+
+/* =============
+ * loading css
+ * end
+ * ====================================================
+*/
+/* line 1, ../sass/_header.scss */
+.header {
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #eee;
+    color: #000;
+}
+/* line 11, ../sass/_header.scss */
+.header .row {
+    padding: 0 50px;
+    margin: 0 auto;
+    max-width: 1260px;
+    position: relative;
+    height: 100%;
+}
+/* line 18, ../sass/_header.scss */
+.header .logo {
+    float: left;
+    display: block;
+    width: 187px;
+    height: 60px;
+    background: url(/images/pc/logo.png) no-repeat center;
+    text-indent: -200px;
+    overflow: hidden;
+}
+/* line 27, ../sass/_header.scss */
+.header .logo-new {
+    display: block;
+    width: 100px;
+    height: 38px;
+    padding-left: 58px;
+    background: transparent url("../../../images/pc/v2/logo2.png") left top no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -19px;
+    left: 50px;
+    color: #000;
+    font-size: 18px;
+    line-height: 1.2;
+}
+/* line 40, ../sass/_header.scss */
+.header .logo-new p {
+    font-size: 14px;
+    color: #000;
+}
+/* line 44, ../sass/_header.scss */
+.header .logo-new h1 {
+    color: #000;
+}
+/* line 48, ../sass/_header.scss */
+.header .nav {
+    float: right;
+    height: 58px;
+    position: relative;
+    padding-right: 140px;
+}
+/* line 54, ../sass/_header.scss */
+.header .nav:hover a.cur {
+    background: none;
+}
+/* line 58, ../sass/_header.scss */
+.header .nav a {
+    display: inline-block;
+    padding: 0;
+    margin-left: 35px;
+    font-size: 16px;
+    height: 60px;
+    line-height: 60px;
+    color: #000;
+    position: relative;
+}
+/* line 67, ../sass/_header.scss */
+.header .nav a.cur {
+    color: #2b6ffe !important;
+}
+/* line 69, ../sass/_header.scss */
+.header .nav a.cur:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #2b6ffe;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+/* line 80, ../sass/_header.scss */
+.header .nav a.join {
+    right: 0;
+    padding: 0;
+    margin-top: -16px;
+    text-align: center;
+    height: auto;
+    line-height: 32px;
+    width: 100px;
+    border-radius: 3em;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    background: #ff8840;
+}
+
+/* line 1, ../sass/_footer.scss */
+.foot, .footer {
+    height: 260px;
+    text-align: center;
+    background: #f2f2f2;
+}
+/* line 5, ../sass/_footer.scss */
+.foot h2, .foot p, .footer h2, .footer p {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 14px;
+}
+/* line 12, ../sass/_footer.scss */
+.foot h2, .footer h2 {
+    font-size: 36px;
+    padding-top: 50px;
+    margin-bottom: 40px;
+    color: #000;
+    font-weight: 400;
+}
+/* line 19, ../sass/_footer.scss */
+.foot p, .footer p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+
+.foot h2{
+    margin-bottom:0;
+}
+.about,.contact{
+    color:#777777;
+    font-size:18px;
+    line-height: 40px;
+}
+.contact{
+    padding-left:20px;
+}
+.about:hover,.contact:hover{
+    text-decoration: underline;
+}
+
+.ab_title{
+    margin-top: 20px;
+    color:white;
+    font-size: 72px;
+    margin-top: 14px;
+}

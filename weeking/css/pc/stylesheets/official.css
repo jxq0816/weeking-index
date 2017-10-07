@@ -1,0 +1,49 @@
+/* line 1, ../sass/official.scss */
+.main {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 0.05em;
+}
+
+/* line 8, ../sass/official.scss */
+h2 {
+    margin-top: 100px;
+    font-size: 40px;
+    color: #2b6ffe;
+    margin-bottom: 15px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+/* line 15, ../sass/official.scss */
+h2 + p {
+    font-size: 24px;
+}
+
+/* line 21, ../sass/official.scss */
+.cb {
+    width: 790px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    margin-top: 50px;
+}
+
+/* line 30, ../sass/official.scss */
+.rb {
+    position: absolute;
+    top: 106px;
+    left: 430px;
+}
+
+/* line 36, ../sass/official.scss */
+h3 {
+    font-size: 24px;
+    color: #2b6ffe;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+/* line 41, ../sass/official.scss */
+h3 + p {
+    margin-bottom: 63px;
+}
