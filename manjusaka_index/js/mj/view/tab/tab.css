@@ -1,8 +1,0 @@
-@CHARSET "UTF-8";
-
-.test{
-	position:relative;
-	cursor: move;
-	border-radius: 5px;
-	font-weight: bold;
-}
